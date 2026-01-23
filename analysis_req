@@ -1,0 +1,73 @@
+Request: ServiceNow API Access for DCA Automation & Visualization Integration
+
+Requesting read-only access to ServiceNow REST APIs
+
+Purpose: Deployment Confidence Assessment (DCA) risk evaluation and automation
+
+Incident Data
+
+API access to Incident (incident) table
+
+Required to:
+
+Retrieve historical incident data
+
+Identify incidents related to change tickets
+
+Analyze incident patterns to understand post-change impact
+
+Usage:
+
+Support risk rating of change tickets during DCA meetings
+
+Correlate past incidents with similar changes
+
+Change Ticket Data
+
+API access to Change Request (change_request) table
+
+Required to:
+
+Retrieve historical and current change tickets
+
+Analyze risk, impact, type (normal/emergency), and outcomes
+
+Usage:
+
+Automate DCA risk assessment
+
+Derive risk level using past change and incident history
+
+Change–Incident Correlation
+
+Ability to identify incidents linked to change tickets
+
+Required to:
+
+Understand historical risk trends
+
+Improve accuracy of DCA risk ratings
+
+CMDB CI Data
+
+API access to CMDB CI tables
+
+Required to:
+
+Retrieve CI details for applications and components
+
+Tag each component in our visualization tool / application flow diagram with its corresponding CMDB CI
+
+CMDB Usage
+
+Track CI lifecycle status
+
+When a service or CI is decommissioned, the visualization diagrams and application flows can be updated or re-iterated accordingly
+
+End Objective
+
+Automate DCA process using ServiceNow data
+
+Improve risk visibility and decision-making
+
+Maintain accurate service-to-CI mapping in visualization tools
